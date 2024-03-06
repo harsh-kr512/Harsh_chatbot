@@ -1,9 +1,10 @@
+pip install openai==0.28
 import streamlit as st
 import openai
 
 st.title('Chatbot by Harsh')
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 if 'openai_model' not in st.session_state:
     st.session_state['openai_model'] = 'gpt-3.5-turbo'
