@@ -3,7 +3,7 @@ import openai
 
 st.title('Chatbot by Harsh')
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 if 'openai_model' not in st.session_state:
     st.session_state['openai_model'] = 'gpt-3.5-turbo'
