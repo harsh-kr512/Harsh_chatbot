@@ -1,6 +1,6 @@
-pip install openai==0.28
+
 import streamlit as st
-import openai
+
 
 st.title('Chatbot by Harsh')
 
